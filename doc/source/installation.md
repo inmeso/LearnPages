@@ -1,3 +1,1 @@
 # Installation
-## Math
-$$\alpha$$
