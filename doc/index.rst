@@ -12,6 +12,7 @@ Welcome to Test's documentation!
 
    installation.md
    quickstart.md
+   bash_example.rst
 
 
 
