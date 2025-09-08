@@ -53,23 +53,11 @@ exclude_patterns = []
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = "pydata_sphinx_theme" #'alabaster'
+html_theme = "sphinx_rtd_theme" #'alabaster'
 
 # Enable theme switcher
 
-html_theme_options = {
-    "switcher": {
-        # Path to a JSON file defining themes (we'll create this next)
-        "json_url": "_static/theme-switcher.json",
-        # Map "light" and "dark" to valid theme names
-        "theme": {
-            "light": "default",  # Light theme (built-in to pydata-sphinx-theme)
-            "dark": "darkly"     # Dark theme (built-in to pydata-sphinx-theme)
-        }
-    },
-    # Optional: Set default theme (avoids user preference issues)
-    "default_theme": "light"
-}
+
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
