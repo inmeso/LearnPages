@@ -56,13 +56,19 @@ exclude_patterns = []
 html_theme = "pydata_sphinx_theme" #'alabaster'
 
 # Enable theme switcher
+
 html_theme_options = {
     "switcher": {
+        # Path to a JSON file defining themes (we'll create this next)
+        "json_url": "_static/theme-switcher.json",
+        # Map "light" and "dark" to valid theme names
         "theme": {
-            "light": "default",  # Light theme
-            "dark": "darkly",    # Dark theme
-        },
+            "light": "default",  # Light theme (built-in to pydata-sphinx-theme)
+            "dark": "darkly"     # Dark theme (built-in to pydata-sphinx-theme)
+        }
     },
+    # Optional: Set default theme (avoids user preference issues)
+    "default_theme": "light"
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
