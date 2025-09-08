@@ -33,7 +33,8 @@ release = '1.0'
 extensions = [
     'sphinx.ext.mathjax',
     'sphinx.ext.ifconfig',
-    'myst_parser'
+    'myst_parser',
+    'sphinx_copybutton'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
